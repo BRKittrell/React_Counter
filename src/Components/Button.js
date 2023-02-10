@@ -1,13 +1,12 @@
 import React from "react";
 
-
 const Button = ({ setCount }) => {
   return (
     <>
       <button
         className="buttons"
         onClick={() => {
-          setCount((count) => count + 2);
+          setCount((count) => count + 1);
         }}
       >
         Increase Count
@@ -16,7 +15,7 @@ const Button = ({ setCount }) => {
       <button
         className="buttons"
         onClick={() => {
-          setCount((count) => count - 2);
+          setCount((count) => count - 1);
         }}
       >
         Decrease Count
