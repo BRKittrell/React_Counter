@@ -4,16 +4,15 @@ const Button = ({ setCount }) => {
   return (
     <>
       <button
-        className="buttons"
+        id="increase"
         onClick={() => {
           setCount((count) => count + 1);
         }}
       >
         Increase Count
       </button>
-
       <button
-        className="buttons"
+        id="decrease"
         onClick={() => {
           setCount((count) => count - 1);
         }}
